@@ -625,6 +625,11 @@
               <FilePath>..\Code\BSP\src\bsp_uart.c</FilePath>
             </File>
             <File>
+              <FileName>bsp_i2c_eeprom.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Code\BSP\src\bsp_i2c_eeprom.c</FilePath>
+            </File>
+            <File>
               <FileName>bsp.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Code\BSP\src\bsp.c</FilePath>
@@ -635,6 +640,9 @@
               <FilePath>..\Code\BSP\src\main.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>APP</GroupName>
         </Group>
       </Groups>
     </Target>
