@@ -1,7 +1,5 @@
 
-
 #include "bsp.h"
-
 
 int main(void)
 {	
@@ -9,5 +7,6 @@ int main(void)
 	
 	while(1) {
 		bsp_run();
+		
 	}
 }

@@ -1,6 +1,8 @@
 
 #pragma once
 
+#include "generic_log.h"
+
 #include "stm32h7xx_hal.h"
 
 void bsp_init(void);

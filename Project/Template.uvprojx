@@ -54,7 +54,7 @@
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
           <DebugInformation>1</DebugInformation>
-          <BrowseInformation>1</BrowseInformation>
+          <BrowseInformation>0</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32H743xx</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Firmware\CMSIS\Include;..\Firmware\CMSIS\Device\ST\STM32H7xx\Include;..\Firmware\STM32H7xx_HAL_Driver\Inc;..\Firmware\STM32H7xx_HAL_Driver\Inc\Legacy;..\Code\BSP\inc</IncludePath>
+              <IncludePath>..\Firmware\CMSIS\Include;..\Firmware\CMSIS\Device\ST\STM32H7xx\Include;..\Firmware\STM32H7xx_HAL_Driver\Inc;..\Firmware\STM32H7xx_HAL_Driver\Inc\Legacy;..\Code\BSP\inc;..\Code\Gereric\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -597,6 +597,16 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Generic</GroupName>
+          <Files>
+            <File>
+              <FileName>generic_log.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\Code\Gereric\inc\generic_log.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>BSP</GroupName>
           <Files>
             <File>
@@ -623,11 +633,6 @@
               <FileName>bsp_uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Code\BSP\src\bsp_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>bsp_i2c_eeprom.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Code\BSP\src\bsp_i2c_eeprom.c</FilePath>
             </File>
             <File>
               <FileName>bsp.c</FileName>
