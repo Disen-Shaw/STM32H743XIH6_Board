@@ -726,8 +726,8 @@
   </Group>
 
   <Group>
-    <GroupName>BSP</GroupName>
-    <tvExp>1</tvExp>
+    <GroupName>Bsp</GroupName>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -818,7 +818,15 @@
   </Group>
 
   <Group>
-    <GroupName>APP</GroupName>
+    <GroupName>FreeRTOS/Port</GroupName>
+    <tvExp>0</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+  </Group>
+
+  <Group>
+    <GroupName>FreeRTOS</GroupName>
     <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>

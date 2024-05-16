@@ -11,9 +11,3 @@ void bsp_init(void)
 	bsp_led_init();
 	bsp_uart_init();
 }
-
-
-void bsp_run(void)
-{
-	
-}

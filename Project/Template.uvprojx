@@ -54,7 +54,7 @@
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
           <DebugInformation>1</DebugInformation>
-          <BrowseInformation>0</BrowseInformation>
+          <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -607,7 +607,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>BSP</GroupName>
+          <GroupName>Bsp</GroupName>
           <Files>
             <File>
               <FileName>stm32h7xx_hal_conf.h</FileName>
@@ -647,7 +647,10 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>APP</GroupName>
+          <GroupName>FreeRTOS/Port</GroupName>
+        </Group>
+        <Group>
+          <GroupName>FreeRTOS</GroupName>
         </Group>
       </Groups>
     </Target>
