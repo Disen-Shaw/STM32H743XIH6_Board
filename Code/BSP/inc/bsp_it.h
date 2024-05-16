@@ -37,6 +37,11 @@
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 
+// FreeRTOS
+void xPortPendSVHandler( void );
+void xPortSysTickHandler( void );
+void vPortSVCHandler( void );
+
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/

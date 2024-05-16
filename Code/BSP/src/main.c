@@ -1,11 +1,10 @@
 
 #include "bsp.h"
+#include "freertos_task.h"
 
 int main(void)
 {	
 	bsp_init();
-	
-	while(1) {
-		
-	}
+	freertos_init();
 }
+
